@@ -1,4 +1,4 @@
-/*PROGRAMA DE ALOCA«√O DINAMICA DE MEMORIA
+/*PROGRAMA DE ALOCA√á√ÉO DINAMICA DE MEMORIA
 GERENCIAMENTO DE MEMORIA*/
 
 #include<iostream>
@@ -19,6 +19,7 @@ int main(){
 		sum += *(ptr + i); // sum = sum + *(ptr + i)
 	}
 	
+	cout << "O ponteiro esta no endere√ßo " << ptr << endl;
 	cout << "A soma dos cadastrados e: " <<sum<<endl;
 	
 	delete[] ptr; //libera a memoria alocada
